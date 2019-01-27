@@ -17,6 +17,7 @@
       <ClangSourceFile>include.c</ClangSourceFile>
       <AstOutputFile>ast.txt</AstOutputFile>
       <ClangOptions>"I../src" "I../build/src"</ClangOptions>
+      <OutputFile>"obj/Debug/netcoreapp2.1"</OutputFile>
     </Piggy>
   </ItemGroup>
 
