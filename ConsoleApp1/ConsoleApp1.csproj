@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="piggy" Version="1.0.11">
+    <PackageReference Include="piggy" Version="1.0.13">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
     </PackageReference>
@@ -17,7 +17,7 @@
       <ClangSourceFile>include.c</ClangSourceFile>
       <AstOutputFile>ast.txt</AstOutputFile>
       <ClangOptions>"I../src" "I../build/src"</ClangOptions>
-      <OutputFile>"obj/Debug/netcoreapp2.1"</OutputFile>
+      <OutputFile>"obj\Debug\netcoreapp2.1"</OutputFile>
     </Piggy>
   </ItemGroup>
 

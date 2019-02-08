@@ -44,6 +44,9 @@ template Project1ClangSupport : ClangSupport
             { "PIX", "Pix" },
             //{ "const PIX", "Pix" },
             });
+		ClangSupport._anonymous_enum_map = new Dictionary<string, string>() {
+			{ "L_ADD_TRAIL_SLASH", "TrailingSlashEnum" }
+			};
 	}}
 }
 
